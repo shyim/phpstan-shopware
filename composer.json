@@ -1,0 +1,38 @@
+{
+  "name": "shyim/phpstan-shopware",
+  "type": "phpstan-extension",
+  "description": "Shopware extensions and rules for PHPStan",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Soner Sayakci",
+      "email": "shopware@shyim.de",
+      "homepage": "https://shyim.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "phpstan": {
+      "includes": [
+        "extension.neon"
+      ]
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-simplexml": "*",
+    "phpstan/phpstan": "^0.11.7",
+    "nikic/php-parser": "^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shyim\\PhpStan\\": "src/"
+    }
+  }
+}

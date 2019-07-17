@@ -1,0 +1,6 @@
+rules:
+	- Shyim\PhpStan\Shopware5\Rules\InvalidUsage\KernelConstants
+	- Shyim\PhpStan\Shopware5\Rules\InvalidUsage\ShopwareFunction
+	- Shyim\PhpStan\Shopware5\Rules\InvalidUsage\ZendDb
+	- Shyim\PhpStan\Shopware5\Rules\InvalidUsage\EchoOutput
+	- Shyim\PhpStan\Shopware5\Rules\InvalidUsage\DebugFunction
